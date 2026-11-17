@@ -16,9 +16,13 @@ The installer filename stays **ExcelMate-Setup.exe**. It includes PDF and offlin
 
 ## 当前版本 / Current release
 
-**1.0.7**：自动识别被系统误命名为 `.csv` 的 Excel 工作簿，支持其中的首张、全部或指定工作表；文本 CSV 新增带 BOM 的 UTF-16 / UTF-32 支持，保留 UTF-8 / GB18030。附 26 页、24 章、9 张图解的双语手册；保留中文 / English 界面、7 天试用、离线激活和联网更新。
+**1.0.8**：修复 Windows 成品遗漏证书运行文件导致无法检查更新的问题；安装版与便携版均补齐，保留证书和主机名校验。继续支持 Excel 工作簿误命名为 `.csv` 的自动识别，以及带 BOM 的 UTF-16 / UTF-32 CSV。内置 26 页、24 章、9 张图解的双语手册，保留 7 天试用和原离线激活。
 
-**1.0.7** detects Excel workbooks misnamed `.csv`, including their first, all or selected worksheets. Text CSV now supports UTF-16 / UTF-32 with BOM alongside UTF-8 / GB18030. It includes a 26-page bilingual guide with 24 chapters and nine illustrations, and retains Chinese and English interfaces, a seven-day trial, offline activation and online updates.
+**1.0.8** fixes failed update checks caused by missing TLS runtime data in Windows builds. Installer and portable versions retain certificate and hostname verification. The release keeps detection of Excel workbooks misnamed `.csv`, UTF-16 / UTF-32 CSV with BOM, a 26-page bilingual guide with 24 chapters and nine illustrations, the seven-day trial and existing offline activation.
+
+旧版如一直提示无法检查更新，请先下载上方完整安装包覆盖安装一次，无需卸载或重新激活。
+
+If an older version cannot check for updates, download the complete installer above and install over the existing copy once. Uninstalling or reactivating is unnecessary.
 
 ## 开始使用 / Getting started
 
